@@ -25,6 +25,8 @@ Using Anaconda consists of the following:
 conda create --name deep-learning python=3.6.5
 conda activate deep-learning
 conda install numpy matplotlib pandas jupyter notebook
-conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+conda install pytorch torchvision cudatoolkit=9.0 -c pytorch ([cpu version]conda install pytorch-cpu torchvision-cpu -c pytorch)
+conda install -c conda-forge opencv 
+conda install -c conda-forge tqdm 
 
 ```
